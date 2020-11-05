@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  margin: 0;
+}
+
+.header-container {
+  margin: 0;
+  padding: 0 5%;
+  background-color: rgb(238, 255, 0);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.logo-container a {
+  color: black;
+  font-size: max(1.5rem, 2vw);
+  font-weight: bold;
+}
+
+.links-container {
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: clamp(300px, 800px)
+}
+
+.links-container ul {
+  display: flex;
+}
+
+.links-container li {
+  margin: 0.2rem 0.2rem;
+  font-size: max(0.5rem, 0.25vw)
+}
+
+.links-container a {
+  color:black;
+  display: flex;
+  font-size: max(1rem, 2vw);
+}
+
+.links-container a:hover {
+  color: white;
+  background-color: black;
+}
+
+.hero-container {
+  height: 500px;
+  background: url("images/computer_objects.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-search {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-heading{
+  width: clamp(300px, 50%, 700px);
+  margin: max(10vw, 0);
+  display: flex; 
+  flex-direction: column;
+}
+
+.hero-heading h2 {
+  margin: 0;
+  color: white;
+  font-size: max(2rem, 3vw);
+}
+
+.hero-heading p {
+  color: white;
+  font-size: max(1rem, 1vw);
+}
+
+.search-box {
+  margin: 1rem auto;
+  padding: 0 1rem 0 0;
+  display: flex;
+  background-color: white;
+}
+
+.search-box i {
+  margin: 1rem 1rem;
+}
+
+.hero-button {
+  margin: 2rem  1rem auto;
+}
+
+.hero-activate {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-activate a {
+  margin: 1rem 1rem auto;
+}
+
+.hero-button a {
+  background-color: yellow;
+  padding: 1rem 1.5rem;
+  border-radius: 20px;
+}
+
+.hero-button a:hover {
+  background-color: yellowgreen;
+}
